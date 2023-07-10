@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+*{
+  font-family: 'Arimo', sans-serif !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+/*antd overide*/
+input{
+  border-radius: 2px !important;
+  border :1px solid rgba(236, 236, 236, 0.596) !important;
+  height: 40px;
+}
+input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray!important;
+
+}
+label{
+  font-size: 16px !important;
+  color :black!important;
+}
+.ant-form-item{
+  margin:10px 0 !important ;
+}
+/*common styling*/
+.spinner-parent{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+ background-color: rgba(0, 0, 0, 0.704);
+ position: fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ z-index:9999;
+}
+p{
+  color: rgba(0, 0, 0, 0.642) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+.spinner-border{
+  height:5rem;
+  width:5rem;
+  color: aliceblue !important;
+}
+.page-title{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.card-title{
+  
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(56, 54, 54);
+}
+.normal-text{
+  font-size: 1rem;
+}
+.role{
+  font-size: 1rem;
+  color: white;
+}
+.card{
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+.car-d{
+ background-color: rgb(83, 170, 186);
+}
+
+.primary-button{
+  background-color: rgb(1, 120, 185) !important;
+  border-color: rgb(5, 198, 201) !important;
+  height: 40px!important;
+  color: aliceblue !important;
+  width : max-content!important;
+  font-size: 16px !important ;
+}
+.anchor{
+  color: black !important;
+  text-decoration: underline ;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+.anchor-n{
+  color: white !important;
+  text-decoration: underline ;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+/* authentication pages */
+
+.authentication{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(9, 74, 106, 0.871); */
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/1366515293/display_1500/stock-vector-friendly-female-doctor-near-the-calendar-work-schedule-make-an-appointment-online-vector-1366515293.jpg);
+  background-position: -6vh;
+  
+}
+.authentication-form{
+  width:400px;
+  background-color: rgba(112, 163, 240, 0.661);
+}
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgb(255, 102, 0);
+  color: aliceblue !important;
+  max-width: max-content!important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+
+}

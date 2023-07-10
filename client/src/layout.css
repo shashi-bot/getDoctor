@@ -1,0 +1,100 @@
+.main{
+    padding:20px;
+    height: 100vh;
+    background-color: rgb(199, 196, 196);
+
+}
+.logo{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 5px;
+}
+.photo{
+    height: 90px;
+    width: 100px;
+    margin-left: 80px;
+  
+}
+.sidebar{
+    background-color: rgba(8, 128, 167, 0.911);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 8px;
+
+}
+.collapsed-sidebar{
+    background-color: rgba(8, 128, 167, 0.911);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+   
+}
+.content{
+    width:100%;
+    height:100%;
+}
+
+.header{
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px; 
+    height: 8vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.body{
+    background-color: rgba(251, 254, 255, 0.923);
+  
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 82vh;
+    width:100%;
+    padding: 16px;
+}
+.menu{
+    margin-top: 100px;
+    padding: 0 10px;
+}
+.menu-item{
+    margin-top: 30px;
+}
+.menu-item a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.menu-item i{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0 15px;
+
+}
+.active-menu-item{
+  color: aliceblue;
+  background-color:rgba(2, 77, 103, 0.911) ; 
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.header-action-icon{
+    font-size: 30px;
+    color:white !important;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .menu{
+     padding: 0 5px;   
+    }
+}
